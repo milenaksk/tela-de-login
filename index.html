@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Faça o seu Login</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap');
+
+        :root {
+            --fonte-destaque: 'Smooch Sans', sans-serif;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, purple, black);
+            color: white;
+        }
+
+        div {
+            background-color: rgba(0, 0, 0, 0.61);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 90px;
+            border-radius: 10px;
+        }
+
+        div > h1 {
+            font-family: var(--fonte-destaque);
+            font-size: 55px;
+        }
+
+        input {
+            font-size: 15px;
+            padding: 15px;
+            border: none;
+            outline: none;
+        }
+
+
+        button {
+            font-size: 15px;
+            background-color: plum;
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+            color: white;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        button:hover {
+            background-color: darkmagenta;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="email" placeholder="Digite seu e-mail">
+        <br> <br>
+        <input type="password" placeholder="Digite sua senha">
+        <br> <br>
+        <a href="#">Esqueci minha senha</a>
+        <br> <br>
+        <button>Entrar</button>
+    </div>
+    
+</body>
+</html>
